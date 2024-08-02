@@ -1,0 +1,13 @@
+###Download Data
+# script to perform standard workflow steps to analyze single cell RNA-Seq data
+# data: 20k Mixture of NSCLC DTCs from 7 donors, 3' v3.1
+# data source: https://www.10xgenomics.com/resources/datasets/10-k-human-pbm-cs-multiome-v-1-0-chromium-controller-1-standard-2-0-0         
+
+# setwd("Downloads)
+install.packages("Matrix", repos = "http://R-Forge.R-project.org")
+install.packages("Matrix")
+install.packages('Seurat')
+install.packages("hdf5r")
+# load libraries
+library(Seurat)
+library(tidyverse)
